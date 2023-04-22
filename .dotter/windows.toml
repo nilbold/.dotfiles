@@ -1,0 +1,2 @@
+[vim.files]
+vimrc = "~/AppData/Local/nvim/init.vim"

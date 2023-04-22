@@ -1,0 +1,3 @@
+# windows only configuration
+includes = [".dotter/windows.toml"]
+packages = ["vim"]
