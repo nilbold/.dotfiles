@@ -1,2 +1,5 @@
 [vim.files]
 vimrc = "~/.config/nvim/init.vim"
+
+[x.files]
+x = "~/.Xresources"
