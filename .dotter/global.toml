@@ -1,5 +1,5 @@
 [vim.files]
-vimrc = "~/.config/nvim/init.vim"
+nvim = "~/.config/nvim/"
 
 [x.files]
 x = "~/.Xresources"
