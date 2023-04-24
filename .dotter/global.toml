@@ -1,3 +1,7 @@
+[bash.files]
+bash = "~/.config/bash/"
+bashrc = "~/.bashrc"
+
 [vim.files]
 nvim = "~/.config/nvim/"
 
