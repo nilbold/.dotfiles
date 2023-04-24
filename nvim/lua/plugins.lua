@@ -17,6 +17,7 @@ require('lazy').setup {
   'nvim-tree/nvim-web-devicons',
   'nvim-tree/nvim-tree.lua',
   'navarasu/onedark.nvim',
+  'romgrk/barbar.nvim',
 }
 
 require('lualine').setup()
@@ -26,3 +27,5 @@ require('onedark').setup {
   style = 'deep'
 }
 require('onedark').load()
+
+require('barbar').setup()
