@@ -13,11 +13,16 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup {
+  'rust-lang/rust.vim',
   'nvim-lualine/lualine.nvim',
   'nvim-tree/nvim-web-devicons',
   'nvim-tree/nvim-tree.lua',
   'navarasu/onedark.nvim',
   'romgrk/barbar.nvim',
+  'nvim-lua/popup.nvim',
+  'nvim-lua/plenary.nvim',
+  'neovim/nvim-lspconfig',
+  'simrat39/rust-tools.nvim',
 }
 
 require('lualine').setup()
@@ -29,3 +34,5 @@ require('onedark').setup {
 require('onedark').load()
 
 require('barbar').setup()
+
+require('rust-tools').setup()

@@ -5,6 +5,9 @@ local opt = vim.opt
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
 
+g.rustfmt_autosave = 1
+g.rust_recommended_style = 0
+
 opt.background = 'dark'
 
 local indent = 3
