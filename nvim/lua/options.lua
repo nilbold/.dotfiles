@@ -30,3 +30,4 @@ opt.wildmode = 'list:longest'
 
 opt.cursorline = true
 opt.ttyfast = true
+opt.fileformats = "unix,dos"
